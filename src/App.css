@@ -28,7 +28,7 @@
   color: #61dafb;
 }
 
-.img-gallery-container:hover,.img-container {
+.img-gallery-container:hover .img-container {
   transform: scale(1.5);
   transition: transform 2000ms;
 }
