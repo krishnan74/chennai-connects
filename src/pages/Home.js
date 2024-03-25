@@ -2,6 +2,8 @@ import React from "react";
 import Layout from "../layout";
 import backgroundImage from "../images/bg.jpg";
 import "../App.css";
+import Gallery from "./Gallery";
+import GallerySection from "../components/GallerySection";
 
 const Home = () => {
   const styles = {
@@ -22,6 +24,7 @@ const Home = () => {
           Race to the <span className=" text-green-400">Future</span> Now
         </h1>
       </div>
+      <GallerySection/>
     </Layout>
   );
 }
