@@ -16,8 +16,14 @@ const Home = () => {
   };
 
   return (
-    <div>Home</div>
-  )
+    <Layout>
+      <div className="heroSection" style={styles}>
+        <h1 className="text-[90px] font-bold tracking-wider z-10 mt-20 italic">
+          Race to the <span className=" text-green-400">Future</span> Now
+        </h1>
+      </div>
+    </Layout>
+  );
 }
 
 export default Home;
