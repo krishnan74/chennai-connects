@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../layout";
 import backgroundImage from "../images/bg.jpg";
-import fabricImage from "../images/green-fabric.png";
+import fabricImage from "../images/green-fabric1.jpg";
 import "../App.css";
 import Gallery from "./Gallery";
 import GallerySection from "../components/GallerySection";
