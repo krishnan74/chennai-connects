@@ -42,19 +42,17 @@
   color: #61dafb;
 }
 
-.grid-gallery{
+.grid-gallery {
   width: 100%;
-  grid-template-columns: repeat(3,minmax(200px,1fr));
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
   grid-auto-rows: 200px;
-
 }
 
-.grid-gallery .grid-item{
+.grid-gallery .grid-item {
   overflow: hidden;
 }
 
-
-.grid-gallery .grid-item:hover img{
+.grid-gallery .grid-item:hover img {
   transform: scale(1.08);
   transition: transform 2000ms;
 }
@@ -66,4 +64,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.slide_right:hover {
+  box-shadow: inset 400px 0 0 0 #4ade80;
+}
+
+.button_slide {
+  border: 2px solid #4ade80;
+  box-shadow: inset 0 0 0 0 #4ade80;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
 }
