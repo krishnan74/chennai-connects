@@ -24,7 +24,7 @@ const GallerySection = () => {
 
           />
           <div className="absolute h-[15vw] inset-0 flex items-center select-none justify-center text-white text-[1.3rem] sm:text-[3rem] md:text-[5rem] tracking-widest font-bold bg-black bg-opacity-50">
-            CHENNAI CONNECT
+            CHENNAI CONNECTS
           </div>
         </div>
       </div>

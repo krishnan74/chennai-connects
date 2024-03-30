@@ -13,24 +13,26 @@ const StartGallery = () => {
 
 
   const startGallery = [
-    { src: '/images/start/s1.jpg' },
-    { src: '/images/start/s2.jpg' },
-    { src: '/images/start/s3.jpg' },
-    { src: '/images/start/s4.jpg' },
-    { src: '/images/start/s1.jpg' },
-    { src: '/images/start/s2.jpg' },
-    { src: '/images/start/s3.jpg' },
-    { src: '/images/start/s4.jpg' },
-    { src: '/images/start/s1.jpg' },
+    { src: '/images/s1.jpg' },
+    { src: '/images/s2.jpg' },
+    { src: '/images/s3.jpg' },
+    { src: '/images/s4.jpg' },
+    { src: '/images/s1.jpg' },
+    { src: '/images/s2.jpg' },
+    { src: '/images/s3.jpg' },
+    { src: '/images/s4.jpg' },
+   
   ];
 
   const lightboxSlides = [...startGallery.slice(index), ...startGallery.slice(0, index)];
 
   return (
-    <div className='grid-gallery mx-auto my-28 w-full max-w-[80%]  bg-white '>
+    <div className='w-full p-2'>
+<div className='mx-auto py-3 bg-white gap-[3px] grid grid-cols-2 sm:grid-cols-4 sm:w-[80%] '>
+
       {startGallery.map((item, index) => (
-        <div key={index} onClick={() => handleImageClick(index)} className='grid-item'>
-          <img src={item.src} alt={`img-${index}`} className='' />
+        <div key={index} onClick={() => handleImageClick(index)} className='grid-itemx  h-[35vw] sm:h-[20vw]'>
+          <img src={item.src} alt={`img-${index}`} className='w-full h-full object-cover' />
         </div>
       ))}
       <div>
@@ -38,9 +40,10 @@ const StartGallery = () => {
           open={open}
           slides={lightboxSlides}
           close={() => setOpen(false)}
-          
+        
         />
       </div>
+    </div>
     </div>
   );
 };
