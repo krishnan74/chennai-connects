@@ -22,9 +22,6 @@ const Navbar = () => {
         <a href="/contact" className="navLink">
           Contact
         </a>
-        <a href="/partners" className="navLink">
-          Our Partners
-        </a>
       </div>
     </div>
   );
