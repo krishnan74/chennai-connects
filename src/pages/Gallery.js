@@ -1,22 +1,26 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
+import React from "react";
+import Navbar from "../components/Navbar";
 import "yet-another-react-lightbox/styles.css";
-import PrizeGallery from '../components/PrizeGallery';
-import StartGallery from '../components/StartGallery';
+import PrizeGallery from "../components/PrizeGallery";
+import StartGallery from "../components/StartGallery";
+import Layout from "../layout";
 
 const Gallery = () => {
-
-
   return (
-    <>
+    <Layout>
       <div>
-        <Navbar />
-        <StartGallery/>
-        <div className='w-fit mx-auto my-2 bg-green-300 px-2'><h1 className='text-[3rem] sm:text-[5rem] md:text-[7rem]'>PRIZE DISTRIBUTION</h1></div>
-        <PrizeGallery/>
-        
+        <h1 className="text-5xl font-bold text-center mt-10">
+          Start <span className="text-green-400">Point</span>
+        </h1>
+        <StartGallery />
+        <div className="w-fit mx-auto my-2 px-2">
+          <h1 className="text-5xl font-bold text-center mt-10">
+            Prize <span className="text-green-400">Distribution</span>
+          </h1>
+        </div>
+        <PrizeGallery />
       </div>
-    </>
+    </Layout>
   );
 };
 

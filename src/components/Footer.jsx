@@ -62,7 +62,7 @@ const Footer = () => {
       </div>
 
       <div className="bg-gray-800 text-white p-5 text-center">
-        <p>&copy; 2521 Chennai Connects. All rights reserved.</p>
+        <p>&copy; 2024 Chennai Connects. All rights reserved.</p>
       </div>
     </footer>
   );
