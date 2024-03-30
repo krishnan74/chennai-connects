@@ -27,7 +27,7 @@ const StartGallery = () => {
   const lightboxSlides = [...startGallery.slice(index), ...startGallery.slice(0, index)];
 
   return (
-    <div className='grid-gallery w-full max-w-[900px] mx-auto my-20 gap-1 grid overflow-hidden relative'>
+    <div className='grid-gallery mx-auto my-28 w-full max-w-[80%]  bg-white '>
       {startGallery.map((item, index) => (
         <div key={index} onClick={() => handleImageClick(index)} className='grid-item'>
           <img src={item.src} alt={`img-${index}`} className='' />
