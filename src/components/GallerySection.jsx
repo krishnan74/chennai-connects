@@ -36,7 +36,7 @@ const GallerySection = () => {
         <img src="/images/DSC_12.JPG" alt="img"/>
       </div>
 
-      <a href="/Gallery" className="grid-item h-[35vw] sm:h-[15vw] ">
+      <a href="/gallery" className="grid-item h-[35vw] sm:h-[15vw] ">
       
           <div className=" ">
             <img
