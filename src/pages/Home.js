@@ -46,11 +46,13 @@ const Home = () => {
           Let's Connect
         </button>
       </div>
-      <div className="gallery-style" style={galleryStyles}>
-        <h1 className="text-5xl font-bold text-center mt-20">
+      <div >
+        <h1 className="text-5xl font-bold text-center my-10 ">
           Our <span className="text-green-400">Events</span>
         </h1>
-        <GallerySection />
+        <div className="gallery-style" style={galleryStyles}>
+          <GallerySection />
+        </div>
       </div>
     </Layout>
   );

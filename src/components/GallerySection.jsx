@@ -3,42 +3,42 @@ import { MdArrowOutward } from "react-icons/md";
 
 const GallerySection = () => {
   return (
-    <div className='grid-gallery mx-auto my-28 w-full max-w-[80%]  bg-white '>
-      <div className="grid-item">
+    <div className='mx-auto gap-[3px] grid grid-cols-2 sm:grid-cols-3 w-full max-w-[80%]  bg-white '>
+      <div className="grid-item h-[35vw] sm:h-[15vw]">
         <img src="/images/DSC_1.JPG" alt="img"/>
       </div>
-      <div className="grid-item">
+      <div className="grid-item h-[35vw] sm:h-[15vw]">
         <img src="/images/DSC_11.JPG" alt="img"/>
       </div>
-      <div className="grid-item">
+      <div className="grid-item h-[35vw] sm:h-[15vw]">
         <img src="/images/DSC_3.JPG" alt="img"/>
       </div>
-      <div className="grid-item">
+      <div className="grid-item h-[35vw] sm:h-[15vw]">
         <img src="/images/DSC_5.JPG" alt="img"/>
       </div>
-      <div className="grid-item col-span-2 relative">
+      <div className="grid-item h-[35vw] sm:h-[15vw] col-span-2 relative">
         <div className="relative">
           <img
             src="/images/DSC_6.JPG"
             alt="img"
 
           />
-          <div className="absolute h-[15vw] inset-0 flex items-center select-none justify-center text-white text-[1.3rem] sm:text-[3rem] md:text-[5rem] tracking-widest font-bold bg-black bg-opacity-50">
+          <div className="absolute h-[35vw] sm:h-[15vw] inset-0 flex items-center select-none justify-center text-white text-[2rem] sm:text-[3rem] md:text-[3rem] lg:text-[3rem] xl:text-[5rem] tracking-widest font-bold bg-black bg-opacity-50">
             CHENNAI CONNECTS
           </div>
         </div>
       </div>
 
-      <div className="grid-item">
+      <div className="grid-item h-[35vw] sm:h-[15vw]">
         <img src="/images/DSC_7.JPG" alt="img"/>
       </div>
-      <div className="grid-item">
+      <div className="grid-item h-[35vw] sm:h-[15vw]">
         <img src="/images/DSC_12.JPG" alt="img"/>
       </div>
 
-      <a href="/Gallery" className="grid-item ">
+      <a href="/Gallery" className="grid-item h-[35vw] sm:h-[15vw] ">
       
-          <div className="  ">
+          <div className=" ">
             <img
               src="/images/DSC_2.JPG"
               alt="img"
