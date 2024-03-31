@@ -14,14 +14,14 @@ const PrizeGallery = () => {
 
 
   const prizeGallery = [
-    { src: '/images/d1.jpg' },
-    { src: '/images/d2.jpg' },
-    { src: '/images/d3.jpg' },
-    { src: '/images/d4.jpg' },
-    { src: '/images/d5.jpg' },
-    { src: '/images/d6.jpg' },
-    { src: '/images/d7.jpg' },
-    { src: '/images/d1.jpg' },
+    { src: 'static/images/d1.jpg' },
+    { src: 'static/images/d2.jpg' },
+    { src: 'static/images/d3.jpg' },
+    { src: 'static/images/d4.jpg' },
+    { src: 'static/images/d5.jpg' },
+    { src: 'static/images/d6.jpg' },
+    { src: 'static/images/d7.jpg' },
+    { src: 'static/images/d1.jpg' },
    
   ];
 
