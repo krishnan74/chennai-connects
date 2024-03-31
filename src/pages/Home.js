@@ -55,7 +55,6 @@ const Home = () => {
           <GallerySection />
         </div>
       </div>
-      <PrizeGallery/>
     </Layout>
   );
 };
