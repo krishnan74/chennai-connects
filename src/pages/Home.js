@@ -5,6 +5,7 @@ import fabricImage from "../images/green-fabric1.jpg";
 import "./css/home.css";
 import Gallery from "./Gallery";
 import GallerySection from "../components/GallerySection";
+import PrizeGallery from "../components/PrizeGallery";
 
 const Home = () => {
   const styles = {
@@ -54,6 +55,7 @@ const Home = () => {
           <GallerySection />
         </div>
       </div>
+      <PrizeGallery/>
     </Layout>
   );
 };
