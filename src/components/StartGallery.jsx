@@ -13,14 +13,14 @@ const StartGallery = () => {
 
 
   const startGallery = [
-    { src: 'static/images/s1.jpg' },
-    { src: 'static/images/s2.jpg' },
-    { src: 'static/images/s3.jpg' },
-    { src: 'static/images/s4.jpg' },
-    { src: 'static/images/s1.jpg' },
-    { src: 'static/images/s2.jpg' },
-    { src: 'static/images/s3.jpg' },
-    { src: 'static/images/s4.jpg' },
+    { src: 'static/images/s1.JPG' },
+    { src: 'static/images/s2.JPG' },
+    { src: 'static/images/s3.JPG' },
+    { src: 'static/images/s4.JPG' },
+    { src: 'static/images/s1.JPG' },
+    { src: 'static/images/s2.JPG' },
+    { src: 'static/images/s3.JPG' },
+    { src: 'static/images/s4.JPG' },
    
   ];
 
