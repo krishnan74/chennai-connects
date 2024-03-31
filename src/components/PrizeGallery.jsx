@@ -32,7 +32,7 @@ const PrizeGallery = () => {
 <div className='mx-auto py-3 bg-white gap-[3px] grid grid-cols-2 sm:grid-cols-4 sm:w-[80%] '>
 
       {prizeGallery.map((item, index) => (
-        <div key={index} onClick={() => handleImageClick(index)} className='grid-itemx  h-[35vw] sm:h-[20vw]'>
+        <div key={index} onClick={() => handleImageClick(index)} className='grid-item  h-[35vw] sm:h-[20vw]'>
           <img src={item.src} alt={`img-${index}`} className='w-full h-full object-cover' />
         </div>
       ))}

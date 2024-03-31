@@ -51,22 +51,6 @@
 
 
 
- .grid-itemx {
-  position: relative;
-  background-color: #efefef;
-  overflow: hidden;
-}
-.grid-itemx img {
-
-  transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-
-.grid-itemx:hover img {
-  transform: scale(1.1);
-  transition: transform 2000ms;
-}
-
 
 @keyframes App-logo-spin {
   from {
