@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../layout";
 import backgroundImage from "../images/bg.jpg";
 import fabricImage from "../images/green-fabric1.jpg";
-import "../App.css";
+import "./css/home.css";
 import Gallery from "./Gallery";
 import GallerySection from "../components/GallerySection";
 
@@ -11,7 +11,7 @@ const Home = () => {
     backgroundImage: `url(${backgroundImage})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "70vh",
+
     display: "flex",
     flexDirection: "column",
     justifyContent: "start",
@@ -27,11 +27,14 @@ const Home = () => {
 
   return (
     <Layout>
-      <div className="heroSection" style={styles}>
-        <h1 className="text-[90px] font-bold tracking-wider z-10 mt-20 italic">
+      <div
+        className="heroSection h-fit md:h-fit sm:h-[70vh] pb-10 "
+        style={styles}
+      >
+        <h1 className="text-6xl text-center sm:text-[90px]  font-bold tracking-wider z-10 mt-20 italic ">
           Race to the <span className=" text-green-400">Future</span> Now
         </h1>
-        <p className="w-[70%] z-10 font-['Oswald'] text-center text-xl tracking-wide ">
+        <p className="w-[70%] min-w-[300px] z-10 font-['Oswald'] text-center text-lg tracking-wide sm:text-xl mt-5 ">
           <span className="text-green-400">Chennai Connects</span> is a dynamic
           event management startup dedicated to organizing diverse and engaging
           events in the vibrant city of Chennai. From exhilarating marathons and
@@ -43,7 +46,7 @@ const Home = () => {
           Let's Connect
         </button>
       </div>
-      <div style={galleryStyles}>
+      <div className="gallery-style" style={galleryStyles}>
         <h1 className="text-5xl font-bold text-center mt-20">
           Our <span className="text-green-400">Events</span>
         </h1>

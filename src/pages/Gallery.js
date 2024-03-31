@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import "yet-another-react-lightbox/styles.css";
+import "../App.css";
 import PrizeGallery from "../components/PrizeGallery";
 import StartGallery from "../components/StartGallery";
 import Layout from "../layout";
