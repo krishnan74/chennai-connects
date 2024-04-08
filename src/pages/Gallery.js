@@ -10,7 +10,6 @@ import GallerySection from "../components/GallerySection";
 const Gallery = () => {
   return (
     <Layout>
-      <GallerySection/>
       <div>
         <h1 className="text-5xl font-bold text-center mt-10">
           Start <span className="text-green-400">Point</span>
