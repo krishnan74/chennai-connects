@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../layout";
 import backgroundImage from "../images/bg.jpg";
 import fabricImage from "../images/green-fabric1.jpg";
+import Partners from "./Partners";
 import "./css/home.css";
 import Gallery from "./Gallery";
 import GallerySection from "../components/GallerySection";
@@ -32,7 +33,8 @@ const Home = () => {
         style={styles}
       >
         <h1 className="text-6xl text-center sm:text-[90px]  font-bold tracking-wider z-10 mt-20 italic ">
-          Race to the <span className=" text-green-400">Future</span> Now
+          <span className=" text-green-400">#</span> Run for{" "}
+          <span className=" text-green-400">Happiness</span>
         </h1>
         <p className="w-[70%] min-w-[300px] z-10 font-['Oswald'] text-center text-lg tracking-wide sm:text-xl mt-5 ">
           <span className="text-green-400">Chennai Connects</span> is a dynamic
@@ -42,9 +44,19 @@ const Home = () => {
           specialize in creating memorable experiences for participants and
           spectators alike.
         </p>
-        <button className="mt-10 button_slide slide_right z-10 hover:text-black px-10 py-3 tracking-wide ">
+        <a
+          href="https://www.townscript.com/e/chennai-connectss-5k-run-031224"
+          className="mt-10 button_slide slide_right z-10 hover:text-black px-10 py-3 tracking-wide "
+        >
           Let's Connect
-        </button>
+        </a>
+      </div>
+
+      <div className="">
+        <h1 className="text-5xl font-bold text-center mt-20">
+          Our <span className="text-green-400">Sponsers</span>
+        </h1>
+        <Partners />
       </div>
       <div className="gallery-style" style={galleryStyles}>
         <h1 className="text-5xl font-bold text-center mt-20">
