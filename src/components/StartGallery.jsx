@@ -13,14 +13,14 @@ const StartGallery = () => {
 
 
   const startGallery = [
-    { src: '/images/s1.jpg' },
-    { src: '/images/s2.jpg' },
-    { src: '/images/s3.jpg' },
-    { src: '/images/s4.jpg' },
-    { src: '/images/s1.jpg' },
-    { src: '/images/s2.jpg' },
-    { src: '/images/s3.jpg' },
-    { src: '/images/s4.jpg' },
+    { src: 'static/images/s1.JPG' },
+    { src: 'static/images/s2.JPG' },
+    { src: 'static/images/s3.JPG' },
+    { src: 'static/images/s4.JPG' },
+    { src: 'static/images/s1.JPG' },
+    { src: 'static/images/s2.JPG' },
+    { src: 'static/images/s3.JPG' },
+    { src: 'static/images/s4.JPG' },
    
   ];
 
@@ -31,7 +31,7 @@ const StartGallery = () => {
 <div className='mx-auto py-3 bg-white gap-[3px] grid grid-cols-2 sm:grid-cols-4 sm:w-[80%] '>
 
       {startGallery.map((item, index) => (
-        <div key={index} onClick={() => handleImageClick(index)} className='grid-itemx  h-[35vw] sm:h-[20vw]'>
+        <div key={index} onClick={() => handleImageClick(index)} className='grid-item  h-[35vw] sm:h-[20vw]'>
           <img src={item.src} alt={`img-${index}`} className='w-full h-full object-cover' />
         </div>
       ))}

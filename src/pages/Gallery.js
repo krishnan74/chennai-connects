@@ -5,6 +5,7 @@ import "../App.css";
 import PrizeGallery from "../components/PrizeGallery";
 import StartGallery from "../components/StartGallery";
 import Layout from "../layout";
+import GallerySection from "../components/GallerySection";
 
 const Gallery = () => {
   return (
@@ -21,6 +22,7 @@ const Gallery = () => {
         </div>
         <PrizeGallery />
       </div>
+
     </Layout>
   );
 };

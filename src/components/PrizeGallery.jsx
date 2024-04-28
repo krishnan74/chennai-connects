@@ -14,14 +14,14 @@ const PrizeGallery = () => {
 
 
   const prizeGallery = [
-    { src: '/images/d1.jpg' },
-    { src: '/images/d2.jpg' },
-    { src: '/images/d3.jpg' },
-    { src: '/images/d4.jpg' },
-    { src: '/images/d5.jpg' },
-    { src: '/images/d6.jpg' },
-    { src: '/images/d7.jpg' },
-    { src: '/images/d1.jpg' },
+    { src: 'static/images/d1.JPG' },
+    { src: 'static/images/d2.JPG' },
+    { src: 'static/images/d3.JPG' },
+    { src: 'static/images/d4.JPG' },
+    { src: 'static/images/d5.JPG' },
+    { src: 'static/images/d6.JPG' },
+    { src: 'static/images/d7.JPG' },
+    { src: 'static/images/d1.JPG' },
    
   ];
 
@@ -32,8 +32,8 @@ const PrizeGallery = () => {
 <div className='mx-auto py-3 bg-white gap-[3px] grid grid-cols-2 sm:grid-cols-4 sm:w-[80%] '>
 
       {prizeGallery.map((item, index) => (
-        <div key={index} onClick={() => handleImageClick(index)} className='grid-itemx  h-[35vw] sm:h-[20vw]'>
-          <img src={item.src} alt={`img-${index}`} className='w-full h-full object-cover' />
+        <div key={index} onClick={() => handleImageClick(index)} className='grid-item  h-[35vw] sm:h-[20vw]'>
+          <img src={item.src} alt={`img-${index}`} loading='lazy' className='w-full h-full object-cover' />
         </div>
       ))}
       <div>

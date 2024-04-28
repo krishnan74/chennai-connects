@@ -6,6 +6,7 @@ import Partners from "./Partners";
 import "./css/home.css";
 import Gallery from "./Gallery";
 import GallerySection from "../components/GallerySection";
+import PrizeGallery from "../components/PrizeGallery";
 
 const Home = () => {
   const styles = {
@@ -58,11 +59,13 @@ const Home = () => {
         </h1>
         <Partners />
       </div>
-      <div className="gallery-style" style={galleryStyles}>
-        <h1 className="text-5xl font-bold text-center mt-20">
+      <div >
+        <h1 className="text-5xl font-bold text-center my-10 ">
           Our <span className="text-green-400">Events</span>
         </h1>
-        <GallerySection />
+        <div className="gallery-style" style={galleryStyles}>
+          <GallerySection />
+        </div>
       </div>
     </Layout>
   );

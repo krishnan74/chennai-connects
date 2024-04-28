@@ -30,49 +30,26 @@
   color: #61dafb;
 }
 
-.grid-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(15vw, 1fr));
-  grid-auto-rows: 15vw;
-  grid-auto-flow: dense;
-  grid-gap: 3px;
-}
 
-.grid-gallery .grid-item {
+.grid-item {
   position: relative;
   background-color: #efefef;
   overflow: hidden;
 }
 
-.grid-gallery .grid-item img {
+.grid-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.grid-gallery .grid-item:hover img {
+.grid-item:hover img {
   transform: scale(1.1);
   transition: transform 2000ms;
 }
 
 
-
- .grid-itemx {
-  position: relative;
-  background-color: #efefef;
-  overflow: hidden;
-}
-.grid-itemx img {
-
-  transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-
-.grid-itemx:hover img {
-  transform: scale(1.1);
-  transition: transform 2000ms;
-}
 
 
 @keyframes App-logo-spin {
