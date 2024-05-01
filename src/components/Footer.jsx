@@ -26,7 +26,7 @@ const Footer = () => {
               <FaXTwitter size={25} />
             </a>
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/chennai.connects?igsh=MXJmZTZpcmJiZGwxOA=="
               className="text-[#101010] hover:text-[#DF308C]"
             >
               <FaInstagram size={25} />
@@ -38,7 +38,7 @@ const Footer = () => {
               <FaLinkedinIn size={25} />
             </a>
             <a
-              href="https://www.youtube.com"
+              href="https://youtube.com/@ChennaiConnects?si=obhE5MbzPc58kTyz"
               className="text-[#101010] hover:text-[#FE080A]"
             >
               <FaYoutube size={25} />
@@ -55,9 +55,9 @@ const Footer = () => {
           <a href="/about" className="navLink">
             About
           </a>
-          <a href="/contact" className="navLink">
+          {/* <a href="/contact" className="navLink">
             Contact
-          </a>
+          </a> */}
         </div>
       </div>
 

@@ -38,14 +38,14 @@ const Navbar = () => {
         >
           About
         </a>
-        <a
+        {/* <a
           href="/contact"
           className={`navLink ${
             currentPage == "/contact" ? "border-b-2 border-black" : ""
           }`}
         >
           Contact
-        </a>
+        </a> */}
       </div>
     </div>
   );

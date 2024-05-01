@@ -53,14 +53,14 @@ const Home = () => {
         </a>
       </div>
 
-      <div className="">
+      <div className="flex flex-col items-center justify-center">
         <h1 className="text-5xl font-bold text-center mt-20">
           Our <span className="text-green-400">Sponsers</span>
         </h1>
         <Partners />
       </div>
-      <div >
-        <h1 className="text-5xl font-bold text-center my-10 ">
+      <div className="mb-10">
+        <h1 className="text-5xl font-bold text-center my-20 ">
           Our <span className="text-green-400">Events</span>
         </h1>
         <div className="gallery-style" style={galleryStyles}>
