@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const Layout = ({ children }) => {
   const handleWhatsappClick = () => {
     // Replace the phone number with the desired WhatsApp number
-    window.open("https://wa.me/1234567890", "_blank");
+    window.open("https://wa.me/7448376434", "_blank");
   };
 
   return (
